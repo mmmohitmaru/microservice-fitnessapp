@@ -1,0 +1,68 @@
+go to project folder
+like: 
+> cd C:\project\MyProject
+> pwd
+
+Create a git file
+> git init
+
+Status
+> git status
+
+Adding files and folders
+> git add filename.txt
+> git add .
+
+Commit is save in version control of file, project folder
+> git commit -m "message"
+update
+> git commit -am "message"
+
+Logs
+> git log
+> git log --oneline
+
+Restore
+> git restore filename
+
+uplaod in GitHub
+> git remote add origin uri
+Create a branch
+> git branch -M main
+Push on GitHub 
+> git push -u origin main
+
+changes in project 
+> git add .
+> git commit -m "update message"
+> git push
+
+Branching
+create a new branch
+> git switch -c branchname
+> git switch branchname
+branch list 
+> git branch
+github branch list
+> git branch -r
+
+> git status
+> git add .
+> git status
+> git commit -m "new message"
+
+error
+> git push    
+> git --set-upstream origin branchname
+
+Margeing
+> git switch mainbranchname
+> git merge branchname
+ 
+
+Cloneing the project
+git clone url
+
+pulling the project
+git pull
+
